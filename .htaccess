@@ -1,0 +1,16 @@
+ReWriteEngine On
+ReWriteRule ^(login)$ index.php
+ReWriteRule ^(empleados)$ Ver_empleados.php
+ReWriteRule ^(empleados-de-baja)$ Ver_empleados_baja.php
+ReWriteRule ^(practicas)$ Practicas.php
+ReWriteRule ^(organigrama-empleados) organigrama2.php
+ReWriteRule ^(solicitudes-practicas) Solicitudes.php
+ReWriteRule ^(solicitudes-pendientes) List_Solicitudes.php
+ReWriteRule ^(nuevo-empleado) NewEmployee.php
+ReWriteRule ^(download-json) desc_json.php
+ReWriteRule (gracias) Gracias.php
+ReWriteRule ^(modificar-empleado) Modificar_Empleados.php
+ReWriteRule ^(informacion-aspirante) Aceptar_Estudiantes.php
+ReWriteRule ^(aceptar-practicante) Practicante_Aceptado.php
+ReWriteRule ^(consulta-informacion-aspirante) Consulta_Estudiantes.php
+ReWriteRule ^(novedades-calendario) Calendario.php
